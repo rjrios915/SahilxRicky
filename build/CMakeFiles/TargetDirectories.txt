@@ -1,0 +1,3 @@
+/Users/ricky/Desktop/SahilxRicky/build/CMakeFiles/main.dir
+/Users/ricky/Desktop/SahilxRicky/build/CMakeFiles/edit_cache.dir
+/Users/ricky/Desktop/SahilxRicky/build/CMakeFiles/rebuild_cache.dir
