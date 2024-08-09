@@ -57,10 +57,10 @@ RM = /Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-pack
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /Users/ricky/Desktop/SahilxRicky
+CMAKE_SOURCE_DIR = /Users/ricky/Desktop/Games/SahilxRicky
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /Users/ricky/Desktop/SahilxRicky/build
+CMAKE_BINARY_DIR = /Users/ricky/Desktop/Games/SahilxRicky/build
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -87,9 +87,9 @@ rebuild_cache/fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/ricky/Desktop/SahilxRicky/build/CMakeFiles /Users/ricky/Desktop/SahilxRicky/build//CMakeFiles/progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/ricky/Desktop/Games/SahilxRicky/build/CMakeFiles /Users/ricky/Desktop/Games/SahilxRicky/build//CMakeFiles/progress.marks
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/ricky/Desktop/SahilxRicky/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/ricky/Desktop/Games/SahilxRicky/build/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
@@ -153,6 +153,30 @@ src/main.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/src/main.c.s
 .PHONY : src/main.c.s
 
+src/window.o: src/window.c.o
+.PHONY : src/window.o
+
+# target to build an object file
+src/window.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/src/window.c.o
+.PHONY : src/window.c.o
+
+src/window.i: src/window.c.i
+.PHONY : src/window.i
+
+# target to preprocess a source file
+src/window.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/src/window.c.i
+.PHONY : src/window.c.i
+
+src/window.s: src/window.c.s
+.PHONY : src/window.s
+
+# target to generate assembly for a file
+src/window.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/src/window.c.s
+.PHONY : src/window.c.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -165,6 +189,9 @@ help:
 	@echo "... src/main.o"
 	@echo "... src/main.i"
 	@echo "... src/main.s"
+	@echo "... src/window.o"
+	@echo "... src/window.i"
+	@echo "... src/window.s"
 .PHONY : help
 
 
