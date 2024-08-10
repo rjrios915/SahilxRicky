@@ -27,6 +27,8 @@ set(CMAKE_MAKEFILE_DEPENDS
   "/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/cmake/data/share/cmake-3.30/Modules/Platform/UnixPaths.cmake"
   "/Library/Frameworks/SDL2.framework/Resources/CMake/sdl2-config-version.cmake"
   "/Library/Frameworks/SDL2.framework/Resources/CMake/sdl2-config.cmake"
+  "/Library/Frameworks/SDL2_image.framework/Resources/CMake/sdl2_image-config-version.cmake"
+  "/Library/Frameworks/SDL2_image.framework/Resources/CMake/sdl2_image-config.cmake"
   "/Users/ricky/Desktop/Games/SahilxRicky/CMakeLists.txt"
   "CMakeFiles/3.30.0/CMakeCCompiler.cmake"
   "CMakeFiles/3.30.0/CMakeSystem.cmake"
