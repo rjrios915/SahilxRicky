@@ -9,7 +9,7 @@
 #define WINDOW_HEIGHT (750)
 #define SPEED (600)
 
-void open_window(void){
+void open_window(void) {
     // Check the SDL library is loaded correctly
     if (SDL_Init(SDL_INIT_VIDEO | SDL_INIT_TIMER) != 0) {
         printf("SDL could not initialize! SDL_Error: %s\n", SDL_GetError());
